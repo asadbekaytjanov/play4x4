@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    font-size: 20px;
+    font-weight: bolder;
+    height: 50px;
+    width: 30px;
+    vertical-align: top;
+    
+    
+    
+   
+
+}
+.inner-box-container {
+    padding: 2px;
+    text-align: center;
+    
+}
+
+
+
+.control {
+    background-color: black;
+    padding: 10px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container {
+  margin-top: 80px;
+  text-align: center;
+  height: fit-content;
+ 
+}
+.body {
+    background-color: green;
+}
+
+.game {
+    margin-top: 12px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+    }
+.game :hover {
+    color: coral;
+    background-color: darkblue;
+}
+#btn-1 , #btn-2 ,#btn-3 , #btn-4 , #btn-5 , #btn-6 , #btn-7 , #btn-8 , #btn-9 , #btn-10 , #btn-11 , #btn-12, #btn-13, #btn-14, #btn-15, #btn-16 {
+    padding: 30px;
+}  
+.footer {
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+} 
+ .txt {
+    font-size: 30px;
+
+
+ }
+
+  #btn-16 {
+     vertical-align: top;
+     size: 70px;
+ } 
+ 
