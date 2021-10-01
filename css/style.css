@@ -1,30 +1,25 @@
-
 body{
     margin: 0;
     padding: 0;
-    
 }
 
 .box {
-    height: 70px;
-    width: 70px;
+    font-size: 16px;
+    height: 60px;
+    width: 60px;
     vertical-align: top;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0;
-   
+    
     
     
    
 
 }
 .inner-box-container {
-    margin: 14px 0;
+    padding: 2px;
+    text-align: center;
     
 }
-.snes {
-    text-align: center;
-}
+
 
 
 .control {
@@ -33,17 +28,15 @@ body{
 }
 
 .button {
-    
+    padding: 10px;
+    font-size: 12px;
     font-weight: bold;
 }
 
 .container {
-    
-    padding: 10px 20px 10px;
-    max-width: 480px;
-    min-width: 250px;
-    margin: 0 auto;
- 
+  margin-top: 20px;
+  text-align: center;
+  height: fit-content;
  
 }
 .body {
@@ -63,8 +56,17 @@ body{
     background-color: darkblue;
 }
 
+
+ .txt {
+    font-size: 18px;
+    color: blanchedalmond;
+   
+
+
+ }
+
 .footer {
-    
+   
     position: fixed;
     left: 0;
     bottom: 0;
@@ -73,12 +75,7 @@ body{
     color: white;
     text-align: center;
     padding: 10px;
-  
-} 
- .txt {
-    font-size: 20px;
-
-
- }
-
-
+}
+.snes {
+    text-align: center;
+}
