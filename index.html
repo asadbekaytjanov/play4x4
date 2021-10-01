@@ -6,36 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>"4x4" oyini</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
    <script src="js/app.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  
+   <link rel="stylesheet" href="Ness/ness.min.css">
  
-  <link rel="stylesheet" href="Ness/ness.min.css">
-  <div  class="control">
-         
-          <button style=" font-weight: bold; margin-left: 25px;margin-bottom: 28px;" class="nes-btn is-primary" onclick="startGame()">Jan'a oyin</button>
+  
 
-          <span style="margin-left: 30px; font-family:sans-serif; font-style: italic; color: #fff;"></span>
-          
-          <i class="nes-icon trophy costum-icon is-medium"></i><span style="font-size: 24px; color: cornsilk;" id = "cnt">0</span>
-           <i style="text-align: center; margin-left: 60px;" class="snes-logo"> </i> 
-    
-    </div>
-    
     
 </head>
 <body class="body">
     
-    
+    <div  class="control">
+                <div class="snes"><i   class="snes-logo"> </i> </div>
+                <p style="text-align: center; font-size: 16px; font-style: italic;"><a href="https://en.wikipedia.org/wiki/Sliding_puzzle" target="_blank">4x4 sirg'anaq jumbaq</a></p>
+                   
+                </div>
         <div class="container">
-<div class="inner-box-container" >
+            
+            <button style=" font-weight: bold; margin-bottom: 30px;  " class="nes-btn is-primary" onclick="startGame()">Jan'a oyin</button>
+
+            <span style="margin-left: 30px; font-family:sans-serif; font-style: italic; color: #fff;"></span>
+            
+            <i class="nes-icon trophy costum-icon is-medium"></i>
+            <span style="font-size: 24px; color: cornsilk;" id = "cnt">0</span>
+          
+<div class="row inner-box-container" >
     <button class="nes-btn box"; id="btn-1" ></button>
     <button class="nes-btn box"; id="btn-2"></button>
     <button class="nes-btn box"; id="btn-3"></button>
     <button class="nes-btn box"; id="btn-4"></button>
 </div>
 
-<div class="inner-box-container" >
+<div class="row inner-box-container" >
     <button class="nes-btn box"; id="btn-5"></button>
     <button class="nes-btn box"; id="btn-6"></button>
     <button class="nes-btn box"; id="btn-7"></button>
@@ -43,14 +45,14 @@
 </div>
 
 
-<div class="inner-box-container" >
+<div class="row inner-box-container" >
     <button class="nes-btn box"; id="btn-9"></button>
     <button class="nes-btn box"; id="btn-10"></button>
     <button class="nes-btn box"; id="btn-11"></button>
     <button class="nes-btn box"; id="btn-12"></button>
 </div>
 
-<div class="inner-box-container" >
+<div class="row inner-box-container" >
     <button class="nes-btn box"; id="btn-13"></button>
     <button class="nes-btn box"; id="btn-14"></button>
     <button class="nes-btn box"; id="btn-15"></button>
