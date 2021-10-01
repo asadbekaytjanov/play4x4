@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 let ids = ["btn-1", "btn-2", "btn-3", "btn-4", "btn-5", "btn-6", "btn-7", "btn-8", "btn-9", "btn-10", "btn-11", "btn-12", "btn-13", "btn-14", "btn-15", "btn-16"]
 let cnt=0;    
 function startGame() {
- 
+ cnt=0;
   console.log("New game was started");
   let numbers= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
   numbers = shuffle(numbers);
