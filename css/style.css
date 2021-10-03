@@ -6,7 +6,7 @@ body{
 .box {
     font-size: 16px;
     height: 60px;
-    width: 60px;
+    width: 59.9px;
     vertical-align: top;
     
     
@@ -15,7 +15,6 @@ body{
 
 }
 .inner-box-container {
-    padding: 2px;
     text-align: center;
     
 }
@@ -34,9 +33,10 @@ body{
 }
 
 .container {
-  margin-top: 20px;
-  text-align: center;
-  height: fit-content;
+    padding: 10px 20px 10px;
+    max-width: 450px;
+    min-width: 250px;
+    margin: 0 auto;
  
 }
 .body {
@@ -58,19 +58,25 @@ body{
 
 
  .txt {
-    font-size: 18px;
-    color: blanchedalmond;
-   
+     font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
 
 
  }
+ .costum-heart {
+    transform: scale(1.5) !important;
+    margin-right: 8px !important;
+    margin-bottom: 4px !important;
+}
 
 .footer {
-   
+   padding: 10px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 5%;
     background-color: black;
     color: white;
     text-align: center;
@@ -79,4 +85,5 @@ body{
 }
 .snes {
     text-align: center;
+   
 }
