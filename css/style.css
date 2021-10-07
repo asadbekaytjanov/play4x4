@@ -60,7 +60,7 @@ body{
  .txt {
      font-size: 13px;
     color: rgb(255, 255, 255);
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 
 
  }
@@ -69,7 +69,12 @@ body{
     margin-right: 8px !important;
     margin-bottom: 4px !important;
 }
-
+.costum-thopy {
+    transform: scale(2.5) !important;
+    margin-right: 4px !important;
+    margin-bottom: 4px !important;
+    margin-left: 1px;
+}
 .footer {
    padding: 10px;
     position: fixed;
@@ -82,8 +87,19 @@ body{
     text-align: center;
     padding: 10px;
     padding-bottom: 20px;
+    
 }
 .snes {
     text-align: center;
    
+}
+#cnt {
+    width: 40%;
+    height: 20%;
+    margin-top: 80px;
+    font-size: 16px;
+    text-align: right;
+    color: blanchedalmond;
+    font-family: sans-serif;
+     margin-left: 6px;
 }
