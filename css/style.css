@@ -41,15 +41,14 @@ body{
 
 .container {
     padding: 10px 10px 10px;
-    max-width: 450px;
-    min-width: 200px;
+    max-width: 480px; 
+    min-width: 250px;
     margin: 0 auto;
    
 }
 .body {
     background-color: green;
-    max-width: 1180px;
-    max-height: 768px;
+    
 }
 
 .game {
